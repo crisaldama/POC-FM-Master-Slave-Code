@@ -1,4 +1,4 @@
-# Sample Code for sharing FM between a master and slave orgs
+# Sample Code for sharing Feedback Management between a master and slave Salesforce orgs
 
 Just validate the oncept, use code atu your own risk.
 
