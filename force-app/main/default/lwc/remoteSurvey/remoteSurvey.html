@@ -1,0 +1,19 @@
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:connected_apps" size="small"></lightning-icon>
+        ¿Quiere participar en la encuesta?
+        </h3>
+        <div slot="footer">
+                
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-button label="Claro que sí" onclick={handleLoad}></lightning-button>
+        </div>
+
+        <!--div class="slds-p-around_medium lgc-bg">
+            <lightning-textarea readonly value={invitationURL} rows="7" style="height:150px;"></lightning-textarea>
+        </div-->
+        <div><iframe width={iframeWidth} height={iframeheight} src={invitationURL} frameborder={iframeborder}></iframe></div>   
+    </lightning-card>
+</template>
